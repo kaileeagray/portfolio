@@ -1,0 +1,60 @@
+nav {
+  background-color: #230F26;
+  height: 80px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  padding-top: 20px;
+}
+
+nav ul li {
+  color: #ffffff;
+  display: inline;
+  padding: 0px 15px;
+}
+
+nav h2 {
+  color: #ffffff;
+}
+
+.herospot {
+  background: url("../images/unsplash_mac_notes.jpeg") no-repeat center center fixed;
+  padding: 300px 0px;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+  .herospot {
+    visibility: hidden;
+  }
+}
+
+.round-img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #A68A80;
+  border: none;
+}
+
+.button:hover, .button:visited {
+  color: #ffffff;
+  opacity: .8;
+}
+
+footer {
+  background-color: #230F26;
+  width: 100%;
+  height: 80px;
+  padding-top: 30px;
+  color: #ffffff;
+  margin-top: 50px;
+}
